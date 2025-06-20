@@ -55,7 +55,7 @@ python app.py
   Prediction: `High Risk (Prob: 0.87)`
 
 ## UI Preview
-*(Insert image link or screenshot here)*
+http://127.0.0.1:5000/
 
 ## File Structure
 ```
