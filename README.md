@@ -1,5 +1,15 @@
 # Heart Failure Risk Prediction using ANN (Flask App)
 
+[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0+-FF6F00.svg?logo=tensorflow)](https://www.tensorflow.org/)
+[![Flask](https://img.shields.io/badge/Flask-WebApp-000000.svg?logo=flask)](https://flask.palletsprojects.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+> Predict the risk of heart failure using patient data. Built with TensorFlow, Flask, and SMOTE oversampling.
+
+---
+
+
 ## Overview
 This project is a machine learning web application that predicts the risk of death due to heart failure based on clinical records. It uses an Artificial Neural Network (ANN) model trained on the [Heart Failure Clinical Records Dataset](https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data) and provides predictions through a Flask web interface.
 
