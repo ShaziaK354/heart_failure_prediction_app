@@ -7,9 +7,14 @@
 
 > Predict the risk of heart failure using patient data. Built with TensorFlow, Flask, and SMOTE oversampling.
 
-HEAD
+---
 
- 18a44aa (Moved README.md to root and updated with badges)
+##  Features
+- Deep learning model trained on real heart failure dataset
+- Oversampling using SMOTE for minority class balancing
+- Interactive web UI with Flask
+- High precision and ROC AUC
+
 ## Overview
 This project is a machine learning web application that predicts the risk of death due to heart failure based on clinical records. It uses an Artificial Neural Network (ANN) model trained on the [Heart Failure Clinical Records Dataset](https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data) and provides predictions through a Flask web interface.
 
@@ -52,11 +57,11 @@ python app.py
 - `age`: 60
 - `sex`: 1
 - `serum_creatinine`: 1.2  
-
-  Prediction: `High Risk (Prob: 0.87)`
+Prediction: `High Risk (Prob: 0.87)`
 
 ## UI Preview
-![UI Preview](ui_preview.png)
+![App UI Preview](ui_preview.png)
+
 
 ## File Structure
 ```
